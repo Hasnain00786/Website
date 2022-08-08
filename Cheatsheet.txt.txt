@@ -1,0 +1,15 @@
+(SSL generation $ ssh-keygen -t ed25519 -C "your_email@example.com" )
+
+
+touch .gitignore  -----> ( which file or folder you want to ignore )
+git config --global user.name 
+git config --global user.email
+git init       ----> ( git start)
+git add .
+git commit -m "Initial Commit"
+git status      ------> ( just to see )
+ssh-keygen -t rsa 4096 -c "email"
+git remote add origin <ssl url.git>
+git push origin master
+
+then paste this key to your github account
